@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0 , 0.5), rgba(0, 0, 0 , 0.5)), url(home.jpg);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+* {
+    color: white;
+
+}
+
+.navbar li {
+    margin: 20px;
+    list-style: none;
+    display: inline;
+
+
+}
+
+ul {
+    display: inline;
+    width: 20px
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+.hoveritem a:hover {
+    border-bottom: 2px solid orangered;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 65px;
+
+
+}
+
+button {
+    /* border-color: rgba(8, 117, 48, 0.642); */
+    border-color: orangered;
+    color: black;
+    background-color: transparent;
+    padding: 15px 32px;
+    text-align: center;
+
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4px 2px;
+    border-radius: 40px;
+
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+/* <nav>
+            <a href="">interior</a>
+            <a href="">HOME</a>
+            <a href="">BEDROOM</a>
+            <a href="">DINING</a> 
+            <a href="">KITCHEN</a>
+            <a href="">BACKYARD</a>
+        </nav> */
